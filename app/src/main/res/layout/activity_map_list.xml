@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMapList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/adapter_list_map"
+        android:layout_alignParentTop="true"
+        android:layout_above="@id/btnShowFullMap"
+        tools:itemCount="3"/>
+
+    <Button
+        android:id="@+id/btnShowFullMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="Show Full Map"
+        android:layout_margin="10dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal" />
+
+
+</RelativeLayout>

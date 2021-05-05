@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#b1e0c4"
+    android:layout_marginTop="8dp"
+    android:layout_marginBottom="8dp"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tvMarkerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Marker Name" />
+
+    <TextView
+        android:id="@+id/tvMarkerLocationGeo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        tools:text="Location Place" />
+
+</LinearLayout>
